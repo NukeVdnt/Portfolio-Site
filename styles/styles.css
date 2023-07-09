@@ -267,6 +267,13 @@ header {
   color: #e5e5e5;
 }
 
+.content a:hover {
+  border-radius: 20%;
+  transition: 0.3s;
+  background-color: #a32626;
+  color: #e5e5e5;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
