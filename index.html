@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <b class="fa-solid fa-n"></b>
+            <div class="logo-text">Vedant Nukte</div>
+          </div>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="img/profile.jpg" alt="profile photo" />
+          </div>
+          <div class="hero-text">
+            <h5>
+              Hi I'm <span class="input">Aspiring Front-End Developer</span>
+            </h5>
+            <h1>Vedant Nukte</h1>
+            <p>
+              I'm a student at Sinhgad Academy of Engineering, currently pursing
+              Computer Science. I'm an aspiring Front-End Developer and
+              passionate about Cybersecurity. Strange Combination but I cannot
+              really favor one of the two, trying to be as best as I can in both
+              the fields.
+            </p>
+            <div class="btn-grp">
+              <a href="#projects" class="btn active">Projects</a>
+              <a href="#" class="btn">Download Résumé</a>
+            </div>
+
+            <div class="social">
+              <a href="mailto:vedvnukte@gmail.com" class="fa fa-google"></a>
+              <a
+                href="https://www.linkedin.com/in/vedant-nukte-31036a280"
+                target="_blank"
+                class="fa fa-linkedin"
+              ></a>
+              <a
+                href="https://github.com/NukeVdnt"
+                target="_blank"
+                class="fa fa-github"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="proj-heading">Projects</h2>
+
+    <div class="card-container" id="projects">
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <div class="icon">
+              <img
+                src="img/portfolio.png"
+                class="proj-img"
+                alt="portfolio website"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <h3>
+              <a href="#" target="_blank">Portfolio</a>
+            </h3>
+            <p>Minimal Portofolio Website developed using HTML and CSS</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <div class="icon">
+              <img
+                src="img/vedabank.png"
+                class="proj-img"
+                alt="portfolio website"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <h3>
+              <a
+                href="https://github.com/NukeVdnt/TSF-Banking-System"
+                target="_blank"
+                >VedaBank</a
+              >
+            </h3>
+            <p>
+              Minimal Banking Website developed as a part of Web Development
+              Internship.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      var togglebtn = document.querySelector(".togglebtn");
+      var nav = document.querySelector(".navlinks");
+      var links = document.querySelector(".navlinks li");
+
+      togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+      });
+
+      var typed = new Typed(".input", {
+        strings: ["Aspiring Front-End Developer", "Cybersecurity Enthusiast"],
+        typedSpeed: 70,
+        backSpeed: 65,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
