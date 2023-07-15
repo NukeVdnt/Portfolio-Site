@@ -299,6 +299,10 @@ header {
     max-width: 100%;
     max-height: auto;
   }
+  .desgination {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 956px) {
