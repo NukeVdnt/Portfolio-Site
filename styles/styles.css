@@ -282,37 +282,6 @@ header {
   margin-left: -4px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    padding: 2rem;
-  }
-  .card-container {
-    flex-direction: column;
-    padding: 2rem;
-    width: 100%;
-  }
-  .hero-text {
-    padding: 40px 0;
-  }
-  .btn-grp {
-    display: flex;
-    flex-direction: column;
-  }
-  .card,
-  .face {
-    max-width: 100%;
-  }
-  .proj-img {
-    max-width: 100%;
-    max-height: auto;
-  }
-  .desgination {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 @media (max-width: 956px) {
   .container {
     flex-direction: column;
@@ -339,5 +308,36 @@ header {
   .proj-img {
     max-width: 100%;
     max-height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 2.3rem;
+  }
+  .card-container {
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+  }
+  .hero-text {
+    padding: 40px 0;
+  }
+  .btn-grp {
+    display: flex;
+    flex-direction: column;
+  }
+  .card,
+  .face {
+    max-width: 100%;
+  }
+  .proj-img {
+    max-width: 100%;
+    max-height: auto;
+  }
+  .desgination {
+    display: flex;
+    flex-direction: column;
   }
 }
