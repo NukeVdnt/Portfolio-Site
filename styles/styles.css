@@ -70,7 +70,7 @@ header {
 }
 
 .container .hero-pic {
-  width: 247px;
+  width: 240px;
   height: 300px;
   border-radius: 20%;
   overflow: hidden;
@@ -280,6 +280,35 @@ header {
   height: 20px;
   margin-top: 2px;
   margin-left: -4px;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .card-container {
+    flex-direction: column;
+    padding: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-text {
+    padding: 80px 0;
+  }
+  .btn-grp {
+    display: flex;
+    flex-direction: column;
+  }
+  .card,
+  .face {
+    max-width: 100%;
+  }
+  .proj-img {
+    max-width: 100%;
+    max-height: auto;
+  }
 }
 
 @media (max-width: 956px) {
