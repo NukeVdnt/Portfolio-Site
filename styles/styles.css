@@ -370,3 +370,37 @@ header {
     flex-direction: column;
   }
 }
+
+@media (max-width: 328px) {
+  .wrapper {
+    padding: 0.2rem;
+  }
+  .container {
+    flex-direction: column;
+    padding: 1.8rem;
+  }
+  .card-container {
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+  }
+  .hero-text {
+    padding: 40px 0;
+  }
+  .btn-grp {
+    display: flex;
+    flex-direction: column;
+  }
+  .card,
+  .face {
+    max-width: 100%;
+  }
+  .proj-img {
+    max-width: 100%;
+    max-height: auto;
+  }
+  .desgination {
+    display: flex;
+    flex-direction: column;
+  }
+}
