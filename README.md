@@ -6,4 +6,4 @@ Stack used -
 Front-End: HTML, CSS & Javascript
 
 ## Snapshot
-![home page](img/portfolio.png)
+![home page](https://github.com/NukeVdnt/Portfolio-Site/blob/main/img/portfolio.png)
