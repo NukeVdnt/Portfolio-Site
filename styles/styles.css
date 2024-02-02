@@ -118,6 +118,7 @@ header {
 }
 
 .btn-grp .btn {
+  text-align: center;
   border-color: #d5d5d5;
   color: #fff;
   background-color: #333;
