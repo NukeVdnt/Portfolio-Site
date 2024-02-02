@@ -94,6 +94,9 @@ header {
   flex-direction: column;
 }
 
+.hero-text-center {
+  text-align: center;
+}
 .hero-text h5 {
   color: #e5e5e5;
   font-size: 14px;
@@ -283,7 +286,7 @@ header {
   margin-left: -4px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .container {
     flex-direction: column;
     padding: 2rem;
