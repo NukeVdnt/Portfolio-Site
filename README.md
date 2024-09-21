@@ -1,7 +1,8 @@
 # Portfolio-Site
 Minimalistic portfolio website built using HTML, CSS, and JavaScript. The website showcases my projects, skills, and contact information in a clean and professional manner.
 ## Snapshot
-![home page](https://github.com/NukeVdnt/Portfolio-Site/blob/main/img/portfolio.webp)
+![image](https://github.com/user-attachments/assets/e9071c52-db2b-45b0-8889-76fb2fd6b50b)
+
 
 ## Features 
 - Responsive Design: The website adapts to different screen sizes, ensuring a great user experience on desktops, tablets, and mobile devices.
